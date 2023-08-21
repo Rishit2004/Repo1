@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background:scroll;
+    background-color: black;
+}
+
+#img{
+    height: auto;
+    display: fixed;
+}
+.navbar {
+    display:block;
+    height: flex;
+    color: rgb(255, 0, 0);
+    align-content: baselinecenter;
+    border: 0.4vh solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.navbar ul li a {
+    
+    color: white;
+    text-decoration: none;
+}
+.dots{
+display:inline-block;
+position:fixed;
+margin-left: 0px;
+top: 2vh;
+left: 96%;
+cursor:all-scroll;
+}
+
+.dots:onclick{
+    scale:1;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 20px;
+    font-family: fantasy;
+    font-size: large;
+}
+
+.navbar ul li:hover {
+    scale: 120%;
+}
+
+.box1 {
+    font-size:25px;
+    font-family:'Bungee Spice', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Yatra One', cursive;;
+    border-radius: 2%;
+    opacity: 0.8;
+    background: -webkit-linear-gradient(to left, #156bc2, #05f87e);  
+    background: linear-gradient(to right, #2679cd, #09db48); 
+    height: 90vh;
+    width: 50%;
+    display:-webkit-inline-flex;
+}
+
+.box2 {
+    font-size:25px;
+    font-family:'Bungee Spice', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Yatra One', cursive;;
+    border-radius: 2%;
+    opacity: 0.8;
+    background: -webkit-repeating-linear-gradient(transform-origin,#05f87e,#417fbe,#e27303);
+    background: -webkit-linear-gradient(top,#ebdf0c,#e3480f,#ff0000);
+    display:-webkit-inline-flex;
+    height: 90vh;
+    width: 50%;
+    background-blend-mode: soft-light;
+}
+
+footer {
+    text-align: center;
+    height: 3vh;
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+}
